@@ -1,17 +1,47 @@
-.header {
+.title {
+  font-weight: 700;
+}
 
+.text {
+  font-weight: 400;
+}
+
+/* ===== HEADER ===== */
+
+.header {
+    padding: 92px 50px 96px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
 }
 
 .menu {
-
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
 
-.logo {
+.menu li {
+    list-style: circle;
+} 
 
+.menu li:first-child {
+    list-style: none;
 }
 
 .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    font-style: normal;
+    max-width: 240px;
+    justify-self: end;
+    align-items: flex-start;
+}
 
+.contacts p {
+    margin: 0;
 }
 
 .tel {
@@ -22,20 +52,61 @@
 
 }
 
-.cover {
+.street {
 
+}
+
+.logo {
+    display: block;
+    width: 148px;
+    justify-self: center;
+}
+
+
+/* ===== COVER ===== */
+
+.cover {
+    padding: 165px 50px 50px;
+    margin-bottom: 180px;
+    background-image: url(./images/cover.jpg);
+    width: 1100px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.6;
 }
 
 .cover_title {
 
 }
 
+
+.text_align-left {
+    display: block;
+    text-align: left;
+}
+
+.text_align-center {
+    display: block;
+    text-align: center;
+}
+
+.text_align-right {
+    display: block;
+    text-align: right;
+}
+
 .description {
 
 }
 
-.lots {
 
+/* ===== LOTS ===== */
+
+.lots {
+    margin: 0 24px 120px;
+    padding: 0;
 }
 
 .lots_title {
@@ -46,19 +117,21 @@
 
 }
 
-.lot_movie {
+.lot_card {
+    width: 334px;
 
+}
+
+.lot_movie {
+    background-image: url(./images/lot_movie.jpg);
 }
 
 .lot_book {
-
+    background-image: url(./images/lot_book.png);
 }
 
 .lot_painting {
-
-}
-
-.lot_card {
+    background-image: url(./images/lot_painting.jpg);
 
 }
 
@@ -74,11 +147,19 @@
 
 }
 
-.about {
 
+/* ===== ABOUT ===== */
+
+.about {
+    margin: 0 24px 180px;
+    padding: 35px 0 0 47px;
 }
 
 .logo_column {
+
+}
+
+.logo_in_column {
 
 }
 
@@ -94,8 +175,12 @@
 
 }
 
-.footer {
 
+/* ===== FOOTER ===== */
+
+.footer {
+    padding: 0 50px 82px;
+    margin: 0;
 }
 
 .socials {
@@ -112,4 +197,14 @@
 
 .socials_pinterest {
 
+}
+
+.background-photos {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.underline {
+    text-decoration: underline;
 }
