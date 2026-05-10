@@ -1,17 +1,18 @@
 /* ===== HEADER ===== */
 
 .header {
-    padding: 92px 50px 96px;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    padding: 92px 50px 96px;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     gap: 32px;
+    font-size: 18px;
 }
 
 .menu li {
@@ -30,6 +31,7 @@
     max-width: 240px;
     justify-self: end;
     align-items: flex-start;
+    font-size: 18px;    
 }
 
 .contacts p {
@@ -74,6 +76,7 @@
 .cover_title {
     position: relative;
     z-index: 2;
+    text-transform: uppercase;
 }
 
 
@@ -95,6 +98,10 @@
 .description {
     position: relative;
     z-index: 2;
+}
+
+.description_text {
+    
 }
 
 
