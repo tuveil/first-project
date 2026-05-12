@@ -180,7 +180,29 @@
 
 .lot_card {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.lots_card_title {
+    position: relative;
+    z-index: 2;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 48px 40px ;
+
+}
+
+.lot_card_text {
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    z-index: 2;
+    margin: 48px 40px;
 }
 
 .lot_movie {
@@ -193,14 +215,6 @@
 
 .lot_painting {
     background-image: url(./images/lot_painting.jpg);
-
-}
-
-.lots_card_title {
-
-}
-
-.lot_card_text {
 
 }
 
