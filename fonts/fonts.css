@@ -3,10 +3,10 @@
     src: local('Raleway Regular'),
          local('Raleway-Regular'),
          local('raleway-regular'),
-         url('../fonts/Raleway-Regular.woff2') format('woff2'),
-         url('../fonts/Raleway-Regular.woff') format('woff'),
-         url('../fonts/Raleway-Regular.ttf') format('truetype'),
-         url('../fonts/Raleway-Regular.eot') format('embedded-opentype');
+         url('./static/Raleway-Regular.woff2') format('woff2'),
+         url('./static/Raleway-Regular.woff') format('woff'),
+         url('./static/Raleway-Regular.ttf') format('truetype'),
+         url('./static/Raleway-Regular.eot') format('embedded-opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -17,16 +17,15 @@
     src: local('Raleway Bold'),
          local('Raleway-Bold'),
          local('raleway-bold'),
-         url('../fonts/Raleway-Bold.woff2') format('woff2'),
-         url('../fonts/Raleway-Bold.woff') format('woff'),
-         url('../fonts/Raleway-Bold.ttf') format('truetype'),
-         url('../fonts/Raleway-Bold.eot') format('embedded-opentype');
+         url('./static/Raleway-Bold.woff2') format('woff2'),
+         url('./static/Raleway-Bold.woff') format('woff'),
+         url('./static/Raleway-Bold.ttf') format('truetype'),
+         url('./static/Raleway-Bold.eot') format('embedded-opentype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 body {
-  font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-
