@@ -133,12 +133,17 @@
 }
 
 .cover_button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+
     color: rgba(255, 255, 255, 1);
     background-color: transparent;
-    align-items: end;
     font-size: 22px;
     text-transform: uppercase;
-
 }
 
 
