@@ -266,11 +266,17 @@
     margin-left: -25px;
 }
 
+.about_text {
+   display: flex;
+   flex-direction: column;
+   
+}
+
 .about_first_text {
     font-size: 20px;
     width: 688px;
     height: 120px;   
-    margin-top: 100px; 
+    margin-top: 66px; 
     margin-left: -25px;
 
 
@@ -280,8 +286,8 @@
     font-size: 20px;
     width: 693px;
     height: 168px;
-    margin-top: 24px; 
     margin-left: -25px;
+    margin-top: 5px;
 }
 
 
