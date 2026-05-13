@@ -248,10 +248,17 @@
     height: 240px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    margin-left: -3px;
+    margin-top: -1px;
 }
 
 .logo_in_column {
-    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    width: 148px;
+    margin-top: 1px;
 }
 
 .about_column {
@@ -269,7 +276,6 @@
 .about_text {
    display: flex;
    flex-direction: column;
-   
 }
 
 .about_first_text {
@@ -296,9 +302,23 @@
 .footer {
     padding: 0 50px 82px;
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+}
+
+.contacts_footer {
+    justify-self: start;
+}
+
+.menu_footer {
+    justify-self: center;
 }
 
 .socials {
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
 
 }
 
@@ -313,6 +333,8 @@
 .socials_pinterest {
 
 }
+
+/* ИНЫЕ */
 
 .background-photos {
     background-repeat: no-repeat;
